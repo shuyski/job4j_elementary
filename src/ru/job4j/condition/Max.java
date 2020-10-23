@@ -5,6 +5,8 @@ public class Max {
         int result = left > right ? left : right;
         return result;
     }
+    //
+
     public static void main(String[] args) {
         int mx = Max.max(13, 15);
         System.out.println("Max chislo = " + mx);

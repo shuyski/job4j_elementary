@@ -6,6 +6,8 @@ public class MultiMax {
         result = result > third ? result : third;
         return result;
     }
+    //
+
     public static void main(String[] args) {
         System.out.println("Max = " + MultiMax.max(10, 20, 30));
     }

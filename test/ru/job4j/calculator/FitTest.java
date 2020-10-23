@@ -15,7 +15,7 @@ public class FitTest {
     }
 
     @Test
-    public void whanWoman180Than80_5() {
+    public void whanWoman180Than805() {
         short height = 180;
         double expected = 80.5;
         double man = Fit.womanWeight(height);

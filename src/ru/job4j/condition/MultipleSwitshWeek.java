@@ -15,6 +15,8 @@ class MultipleSwitchWeek {
         };
 
     }
+    //
+
     public static void main(String[] args) {
         int nomer = MultipleSwitchWeek.numberOfDay("Friday");
         System.out.println(nomer);
