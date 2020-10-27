@@ -5,8 +5,7 @@ public class Check {
         boolean result = true;
         int j = 0;
         for (int i = 0; i < data.length; i++) {
-            result = data[i] == data[0];
-           j = result ? j + 1 : j - 1;
+          j = data[i] == data[0] ? j + 1 : j - 1;
         }
         result = Math.abs(j) == data.length;
         return result;
