@@ -8,7 +8,7 @@ public class FindLoop {
                 rst = index;
                 break;
             }
-        }
+       }
         return rst;
     }
     //

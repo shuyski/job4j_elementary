@@ -54,4 +54,5 @@ public class FindLoopTest {
         int expect = 3;
         assertThat(result, is(expect));
     }
+
 }
