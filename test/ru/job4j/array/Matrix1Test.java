@@ -5,11 +5,11 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-public class MatrixTest {
+public class Matrix1Test {
 
     @Test
     public void when2on2() {
-        int[][] table = Matrix.multiple(2);
+        int[][] table = Matrix1.multiple(2);
         int[][] expect = {
                 {1, 2},
                 {2, 4}
@@ -19,7 +19,7 @@ public class MatrixTest {
 
     @Test
     public void when3on3() {
-        int[][] table = Matrix.multiple(3);
+        int[][] table = Matrix1.multiple(3);
         int[][] expect = {
                 {1, 2, 3},
                 {2, 4, 6},
@@ -30,7 +30,7 @@ public class MatrixTest {
 
     @Test
     public void when5on5() {
-        int[][] table = Matrix.multiple(5);
+        int[][] table = Matrix1.multiple(5);
         int[][] expect = {
                 {1, 2, 3, 4, 5},
                 {2, 4, 6, 8, 10},
